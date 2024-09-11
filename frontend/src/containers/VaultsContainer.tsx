@@ -117,8 +117,8 @@ const VaultsContainer = ({ publicKey }: { publicKey: PublicKey }) => {
             id,
             name: name || "Unnamed Vault",
             symbol: inputToken.symbol || "N/A",
-            chain: "Arbitrum",
-            protocol: "Aave",
+            chain: "Solana",
+            protocol: "Vaultka",
             totalAssets: totalValueLockedUSD
               ? formatTotalAssets(totalValueLockedUSD, inputToken.decimals)
               : "N/A",
