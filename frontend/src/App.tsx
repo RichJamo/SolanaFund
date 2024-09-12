@@ -25,7 +25,7 @@ const MainContent = () => {
         <nav className="w-3/8 bg-gray-800 text-white p-6 rounded-lg">
           <div className="mb-8">
             <h1 className="text-3xl font-bold tracking-tighter text-zinc-100">
-              SuperFund
+              SolanaFund
             </h1>
           </div>
           <ul className="space-y-4">
@@ -86,7 +86,7 @@ function Header() {
       />
 
       <h1 className="text-2xl md:text-6xl font-bold tracking-tighter mb-6 text-zinc-100">
-        OmniYield
+        SolanaFund
       </h1>
 
       <p className="text-zinc-300 text-base">
